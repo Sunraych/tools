@@ -8,7 +8,7 @@ import requests
 from lxml import etree
 
 
-# 获取网卡ip
+# 根据dns解析，获取网卡ip
 def get_inner_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     try:
